@@ -11,7 +11,7 @@ body {
 
 #navbar {
     height: 20%;
-    background-color: #808080;
+    background-color: #323131;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,4 +26,25 @@ body {
 
 #navbar a:hover {
     text-decoration: underline;
+}
+#main{
+    height: 80%;
+    display: flex;
+    /* background-color: pink; */
+}
+
+#body{
+    display: flex;
+    background-color: #A9A9A9;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+#bodytwo{
+    height: 100%;
+    width: 50%;
+    background-image: url(img/dfe6eae8-88af-45a5-af34-a0ca9d8529ef.jpeg);
+    background-size: cover;
 }
